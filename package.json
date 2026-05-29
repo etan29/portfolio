@@ -1,8 +1,9 @@
 {
-  "name": "acm-ucr-static-website",
+  "name": "emily-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/ensure-dev-cache.mjs",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",

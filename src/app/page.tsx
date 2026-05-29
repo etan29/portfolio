@@ -1,9 +1,7 @@
-const Home = () => {
-  return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Emily's Personal Website
-    </div>
-  );
+import Home from "@/components/Home";
+
+const Page = () => {
+  return <Home />;
 };
 
-export default Home;
+export default Page;
