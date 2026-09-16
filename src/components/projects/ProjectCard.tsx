@@ -15,7 +15,7 @@ const ProjectCard = ({ project, onOpen }: ProjectCardProps) => {
       className="shadow-cyan group focus-visible:outline-ink relative aspect-square w-full rounded-2xl bg-black text-left text-white transition-transform duration-200 hover:scale-[1.04] focus-visible:outline-2 focus-visible:outline-offset-2"
     >
       <span className="relative block h-full w-full overflow-hidden rounded-2xl">
-        <span className="absolute inset-x-2 top-2 sm:inset-x-4 sm:top-4 transition-opacity duration-200 md:group-hover:opacity-0 md:group-focus-visible:opacity-0">
+        <span className="absolute inset-x-2 top-2 transition-opacity duration-200 sm:inset-x-4 sm:top-4 md:group-hover:opacity-0 md:group-focus-visible:opacity-0">
           <span className="block font-serif text-base leading-tight sm:text-xl md:text-2xl">
             {project.title}
           </span>

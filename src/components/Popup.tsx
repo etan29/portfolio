@@ -28,8 +28,7 @@ const Popup = ({ open, onClose, children, labelledBy }: PopupProps) => {
     };
 
     const { body, documentElement } = document;
-    const scrollbarWidth =
-      window.innerWidth - documentElement.clientWidth;
+    const scrollbarWidth = window.innerWidth - documentElement.clientWidth;
     const previousBodyOverflow = body.style.overflow;
     const previousHtmlOverflow = documentElement.style.overflow;
     const previousBodyPadding = body.style.paddingRight;
