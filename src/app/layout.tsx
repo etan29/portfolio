@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Allerta, Amaranth } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import { withBasePath } from "@/data/site";
 
 const amaranth = Amaranth({
   subsets: ["latin"],
@@ -20,9 +21,9 @@ export const metadata = {
   description:
     "Portfolio of Emily Tan, a Computer Science student at UC Riverside.",
   icons: {
-    icon: [{ url: "/icon.png", type: "image/png" }],
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: [{ url: withBasePath("/icon.png"), type: "image/png" }],
+    shortcut: withBasePath("/icon.png"),
+    apple: withBasePath("/icon.png"),
   },
 };
 
