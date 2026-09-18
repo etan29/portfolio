@@ -1,8 +1,9 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
-import { FileText, Mail } from "lucide-react";
 import githubIcon from "@/public/GitHub.svg";
 import linkedinIcon from "@/public/Linkedin.svg";
+import mailIcon from "@/public/mail.svg";
+import resumeIcon from "@/public/resume.svg";
 import { SITE, withBasePath } from "@/data/site";
 
 const SOCIAL_LINKS: {
@@ -42,13 +43,29 @@ const SOCIAL_LINKS: {
   {
     href: `mailto:${SITE.email}`,
     label: "Email",
-    icon: <Mail className="h-8 w-8" strokeWidth={1.75} />,
+    icon: (
+      <Image
+        src={mailIcon}
+        alt=""
+        className="h-8 w-8 object-contain"
+        width={32}
+        height={32}
+      />
+    ),
     external: false,
   },
   {
     href: withBasePath(SITE.resumePath),
     label: "Resume",
-    icon: <FileText className="h-8 w-8" strokeWidth={1.75} />,
+    icon: (
+      <Image
+        src={resumeIcon}
+        alt=""
+        className="h-8 w-8 object-contain"
+        width={32}
+        height={32}
+      />
+    ),
     external: true,
   },
 ];

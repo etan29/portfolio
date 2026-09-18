@@ -16,9 +16,9 @@ const Activities = () => {
           {ACTIVITIES.map((group, index) => (
             <article
               key={group.organization}
-              className="grid grid-cols-1 gap-5 md:grid-cols-[9rem_6rem_minmax(0,1fr)] md:gap-x-3 lg:grid-cols-[9.5rem_6rem_minmax(0,1fr)] lg:gap-x-4"
+              className="grid grid-cols-1 gap-5 md:grid-cols-[11rem_6rem_minmax(0,1fr)] md:gap-x-3 lg:grid-cols-[12rem_6rem_minmax(0,1fr)] lg:gap-x-4"
             >
-              <h3 className="text-cyan-shadow text-ink pt-1 font-sans text-lg leading-snug font-semibold md:text-right">
+              <h3 className="text-cyan-shadow text-ink pt-1 font-sans text-xl leading-snug font-semibold sm:text-2xl md:text-right">
                 {group.organization}
               </h3>
 

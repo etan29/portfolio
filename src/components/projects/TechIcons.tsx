@@ -1,19 +1,28 @@
 import type { SimpleIcon } from "simple-icons";
 import {
   siChromewebstore,
+  siCplusplus,
   siCss,
   siEslint,
   siFigma,
   siFlask,
+  siGithubactions,
   siHtml5,
   siJavascript,
   siMqtt,
   siNextdotjs,
+  siNumpy,
   siPandas,
+  siPrettier,
   siPwa,
   siPython,
+  siReact,
+  siScikitlearn,
+  siShadcnui,
   siTailwindcss,
+  siTanstack,
   siTypescript,
+  siYolo,
 } from "simple-icons";
 
 type TechIconsProps = {
@@ -27,6 +36,7 @@ const TECH_ICONS: Record<string, SimpleIcon> = {
   "Tailwind CSS": siTailwindcss,
   Figma: siFigma,
   ESLint: siEslint,
+  Prettier: siPrettier,
   "Chrome Extensions": siChromewebstore,
   "Service Workers": siPwa,
   HTML: siHtml5,
@@ -35,6 +45,14 @@ const TECH_ICONS: Record<string, SimpleIcon> = {
   MQTT: siMqtt,
   Python: siPython,
   pandas: siPandas,
+  "C++": siCplusplus,
+  React: siReact,
+  "React Query": siTanstack,
+  "shadcn/ui": siShadcnui,
+  "GitHub Actions": siGithubactions,
+  YOLO: siYolo,
+  NumPy: siNumpy,
+  "scikit-learn": siScikitlearn,
 };
 
 const BrandIcon = ({ icon, label }: { icon: SimpleIcon; label: string }) => {

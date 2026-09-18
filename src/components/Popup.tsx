@@ -66,7 +66,7 @@ const Popup = ({ open, onClose, children, labelledBy }: PopupProps) => {
         aria-modal="true"
         aria-labelledby={labelledBy}
         tabIndex={-1}
-        className="modal-panel relative z-10 max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-white shadow-[0_24px_60px_rgba(0,0,0,0.28)] focus:outline-none"
+        className="modal-panel relative z-10 flex h-[min(90vh,42rem)] w-full max-w-[42rem] flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_60px_rgba(0,0,0,0.28)] focus:outline-none"
       >
         {children}
       </div>
