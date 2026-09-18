@@ -71,7 +71,7 @@ export const PROJECTS: Project[] = [
     ],
     github: "https://github.com/etan29/ucr-registration-extension",
     liveUrl:
-      "https://chromewebstore.google.com/detail/ucr-registration-extension/baojbphcdchacdilidncmechicklhibia?utm_source=item-share-cb",
+      "https://chromewebstore.google.com/detail/ucr-registration-extensio/baojbphcdchacdilidncmechiklhlbia?utm_source=item-share-cb",
     image: ucrPreview,
     popupImage: ucrPopup,
     imageAlt: "UCR Registration Extension course details overlay",
