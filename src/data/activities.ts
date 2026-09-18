@@ -32,7 +32,7 @@ export const ACTIVITIES: ActivityGroup[] = [
       },
       {
         title: "Frontend Developer",
-        date: "Jan 2026 – Sep 2026",
+        date: "Jan 2026 – Present",
         highlights: [
           "Developing websites for campus organizations, implementing Figma designs and resolving weekly pull requests in an Agile development workflow",
         ],
