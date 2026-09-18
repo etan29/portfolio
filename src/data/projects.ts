@@ -138,7 +138,7 @@ export const PROJECTS: Project[] = [
     title: "Walmart Sales Forecasting",
     category: "Python Data Analysis",
     description:
-      "Built time-series forecasting models to predict retail sales and analyzed their performance across different methodologies. Mentored remotely from ACM DAS (data analytics) leads.",
+      "Built time-series forecasting models to predict retail sales and analyzed their performance across different methodologies. Received mentorship from ACM DAS (data analytics) leads.",
     tech: ["Python", "pandas", "NumPy", "scikit-learn", "XGBoost"],
     liveUrl:
       "https://public.tableau.com/app/profile/emily.tan3498/viz/SalesData_17730864062650/Dashboard1?publish=yes",

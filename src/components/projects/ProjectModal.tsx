@@ -42,7 +42,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
               >
                 {project.title}
               </h3>
-              <p className="text-muted mt-1.5 font-sans text-sm leading-relaxed">
+              <p className="text-ink mt-1.5 font-sans text-base leading-relaxed">
                 {project.description}
               </p>
               <div className="mt-auto pt-3 pb-3">

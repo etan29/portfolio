@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Allerta, Amaranth } from "next/font/google";
+import { withBasePath } from "@/data/site";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 
 const amaranth = Amaranth({
@@ -15,14 +16,17 @@ const allerta = Allerta({
   variable: "--font-allerta",
 });
 
+const iconUrl = withBasePath("/icon.png");
+
 export const metadata = {
+  metadataBase: new URL("https://etan29.github.io/portfolio"),
   title: "Emily Tan",
   description:
     "Portfolio of Emily Tan, a Computer Science student at UC Riverside.",
   icons: {
-    icon: [{ url: "/icon.png", type: "image/png" }],
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: [{ url: iconUrl, type: "image/png" }],
+    shortcut: iconUrl,
+    apple: iconUrl,
   },
 };
 
